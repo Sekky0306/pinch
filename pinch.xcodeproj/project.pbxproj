@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E9E7DBB1ABC1BA600191223 /* 001.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E9E7DBA1ABC1BA600191223 /* 001.png */; };
 		3EECF09A1ABA920C0082CDDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECF0991ABA920C0082CDDB /* main.m */; };
 		3EECF09D1ABA920C0082CDDB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECF09C1ABA920C0082CDDB /* AppDelegate.m */; };
 		3EECF0A01ABA920C0082CDDB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECF09F1ABA920C0082CDDB /* ViewController.m */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E9E7DBA1ABC1BA600191223 /* 001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 001.png; sourceTree = "<group>"; };
 		3EECF0941ABA920C0082CDDB /* pinch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pinch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EECF0981ABA920C0082CDDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EECF0991ABA920C0082CDDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				3EECF09E1ABA920C0082CDDB /* ViewController.h */,
 				3EECF09F1ABA920C0082CDDB /* ViewController.m */,
 				3EECF0A11ABA920C0082CDDB /* Main.storyboard */,
+				3E9E7DBA1ABC1BA600191223 /* 001.png */,
 				3EECF0A41ABA920C0082CDDB /* Images.xcassets */,
 				3EECF0A61ABA920C0082CDDB /* LaunchScreen.xib */,
 				3EECF0971ABA920C0082CDDB /* Supporting Files */,
@@ -202,6 +205,7 @@
 				3EECF0A31ABA920C0082CDDB /* Main.storyboard in Resources */,
 				3EECF0A81ABA920C0082CDDB /* LaunchScreen.xib in Resources */,
 				3EECF0A51ABA920C0082CDDB /* Images.xcassets in Resources */,
+				3E9E7DBB1ABC1BA600191223 /* 001.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +416,7 @@
 				3EECF0B91ABA920C0082CDDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3EECF0BA1ABA920C0082CDDB /* Build configuration list for PBXNativeTarget "pinchTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +425,7 @@
 				3EECF0BC1ABA920C0082CDDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

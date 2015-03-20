@@ -14,6 +14,7 @@
 @end
 
 @implementation ViewController
+
 @synthesize scrollView;
 @synthesize myImage;
 
@@ -21,7 +22,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    UIImageView *img = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"IMG_0594.jpg"]];
+    UIImageView *img = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"001.png"]];
     [self setMyImage:img];
     
     scrollView.pagingEnabled = NO;
@@ -30,19 +31,26 @@
     scrollView.showsVerticalScrollIndicator = NO;
     scrollView.scrollsToTop = YES;
     scrollView.delegate = self;
+    scrollView.maximumZoomScale = 4.0;
+    scrollView.minimumZoomScale = 0.4;
     
     [scrollView addSubview: img];
-    [img release];
+    //[img release];
+}
+- (UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView {
+    return myImage;
 }
 
-- (void)dealloc {
-    [super dealloc];
-    [myImage release];
-    [scrollView release];
-}
+//- (void)dealloc {
+   // [super dealloc];
+   // [myImage release];
+   // [scrollView release];
+//}//
 
 
 - (void)didReceiveMemoryWarning {
+    
+    
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
